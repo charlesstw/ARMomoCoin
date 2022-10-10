@@ -67,6 +67,25 @@ class CloudAnchorManager: NSObject {
             return (error as NSError).code
         }
     }
+    
+    func getAnchorNode() -> SCNNode? {
+//        let scene = SCNScene(named: "art.scnassets/mining_equipment.scn")
+//        let anchorNode = scene?.rootNode.childNode(withName: "scene", recursively: false)
+//
+//        // Load ship.scn
+//        let scene = SCNScene(named: "art.scnassets/ship.scn")
+//        let anchorNode = scene?.rootNode.childNode(withName: "ship", recursively: false)
+//        let shipAnchor = anchorNode?.childNode(withName: "shipMesh", recursively: true)
+//        shipAnchor?.scale = SCNVector3(0.01, 0.01, 0.01)
+        
+        // Load toy_drummer.scn
+        let scene = SCNScene(named: "art.scnassets/toy_drummer.scn")
+        let anchorNode = scene?.rootNode.childNode(withName: "toy_drummer", recursively: false)
+        let geomAnchor = anchorNode?.childNode(withName: "Geom", recursively: true)
+        geomAnchor?.scale = SCNVector3(0.01, 0.01, 0.01)
+        
+        return anchorNode
+    }
 }
 
 extension CloudAnchorManager: ARSessionDelegate {

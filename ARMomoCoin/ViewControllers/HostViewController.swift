@@ -308,21 +308,7 @@ extension HostViewController {
     }
     
     private func cloudAnchorNode() -> SCNNode? {
-        let scene = SCNScene(named: "art.scnassets/mining_equipment.scn")
-        let anchorNode = scene?.rootNode.childNode(withName: "scene", recursively: false)
-        
-        // Load ship.scn
-//        let scene = SCNScene(named: "art.scnassets/ship.scn")
-//        let anchorNode = scene?.rootNode.childNode(withName: "ship", recursively: false)
-//        let shipAnchor = anchorNode?.childNode(withName: "shipMesh", recursively: true)
-//        shipAnchor?.scale = SCNVector3(0.01, 0.01, 0.01)
-        
-        // Load toy_drummer.usdz
-//        guard let url = Bundle.main.url(forResource: "toy_drummer", withExtension: "usdz") else {
-//            return nil
-//        }
-//        let scene = try? SCNScene(url: url, options: [.checkConsistency: true])
-//        let anchorNode = scene?.rootNode.childNode(withName: "toy_drummer", recursively: false)
+        let anchorNode = cloudAnchorManager.getAnchorNode()
         
         let ringNode = FeatureMapQualityRing(radius: CGFloat(kRadius), isHorizontal: hitHorizontalPlane)
         anchorNode?.addChildNode(ringNode)

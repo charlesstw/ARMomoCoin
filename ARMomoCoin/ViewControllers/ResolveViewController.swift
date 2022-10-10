@@ -71,7 +71,7 @@ extension ResolveViewController: GARSessionDelegate {
         if state != .ResolveStateResolving || (idToGarAnchors[anchor.cloudIdentifier ?? ""] == nil) { return }
         
         idToGarAnchors[anchor.cloudIdentifier ?? ""] = anchor
-        let node = cloudAnchorNode()
+        let node = cloudAnchorNode() ?? SCNNode()
         node.simdTransform = anchor.transform
         sceneView.scene.rootNode.addChildNode(node)
         idToResolvedAnchorNodes[anchor.cloudIdentifier ?? ""] = node
@@ -156,10 +156,8 @@ extension ResolveViewController {
         debugLabel.text = "\(kDebugMessagePrefix)\(debugMessage)"
     }
     
-    private func cloudAnchorNode() -> SCNNode {
-        let scene = SCNScene(named: "art.scnassets/mining_equipment.scn")
-        let anchorNode = scene?.rootNode.childNode(withName: "scene", recursively: false)
-        return anchorNode ?? SCNNode.init()
+    private func cloudAnchorNode() -> SCNNode? {
+        return cloudAnchorManager.getAnchorNode()
     }
     
     private func updateResolveStatus() {
