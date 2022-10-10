@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0001CE62331DE33A42FBB344 /* Pods_ARMomoCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B1BAE0FE17BA1406F5737E /* Pods_ARMomoCoin.framework */; };
+		2C40D1A428F00F930073D796 /* CloudAnchorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40D1A328F00F930073D796 /* CloudAnchorManager.swift */; };
+		2C40D1A728F01BFF0073D796 /* FeatureMapQualityBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40D1A628F01BFF0073D796 /* FeatureMapQualityBar.swift */; };
+		2C40D1A928F01C140073D796 /* FeatureMapQualityBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40D1A828F01C140073D796 /* FeatureMapQualityBars.swift */; };
+		2C40D1AB28F01C210073D796 /* FeatureMapQualityRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40D1AA28F01C210073D796 /* FeatureMapQualityRing.swift */; };
 		2C95992928EFFF8600D8F53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C95992828EFFF8600D8F53D /* AppDelegate.swift */; };
 		2C95992B28EFFF8600D8F53D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C95992A28EFFF8600D8F53D /* art.scnassets */; };
-		2C95992D28EFFF8600D8F53D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C95992C28EFFF8600D8F53D /* ViewController.swift */; };
-		2C95993028EFFF8600D8F53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C95992E28EFFF8600D8F53D /* Main.storyboard */; };
 		2C95993228EFFF8900D8F53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C95993128EFFF8900D8F53D /* Assets.xcassets */; };
 		2C95993528EFFF8900D8F53D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C95993328EFFF8900D8F53D /* LaunchScreen.storyboard */; };
 		2C95993F28EFFF8900D8F53D /* ARMomoCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C95993E28EFFF8900D8F53D /* ARMomoCoinTests.swift */; };
 		2C95994928EFFF8900D8F53D /* ARMomoCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C95994828EFFF8900D8F53D /* ARMomoCoinUITests.swift */; };
 		2C95994B28EFFF8900D8F53D /* ARMomoCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C95994A28EFFF8900D8F53D /* ARMomoCoinUITestsLaunchTests.swift */; };
+		2C95995A28F0003900D8F53D /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C95995928F0003900D8F53D /* LobbyViewController.swift */; };
+		2C95995E28F0091600D8F53D /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C95995D28F0091600D8F53D /* HostViewController.swift */; };
+		2C985A0428F263BD0074CF64 /* ResolveLobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C985A0328F263BD0074CF64 /* ResolveLobbyViewController.swift */; };
+		2C985A0628F2710A0074CF64 /* ResolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C985A0528F2710A0074CF64 /* ResolveViewController.swift */; };
+		2CBA54E228F12D6E00A086BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C95995828EFFFF800D8F53D /* Main.storyboard */; };
+		2CC15FDA28F1C12400150492 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CC15FD928F1C12400150492 /* GoogleService-Info.plist */; };
+		56623C4F6301F7E991CF69E4 /* Pods_ARMomoCoin_ARMomoCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74B3D54F008851FAF3B247B /* Pods_ARMomoCoin_ARMomoCoinUITests.framework */; };
+		C1AFA3573BFABDF3799B26AB /* Pods_ARMomoCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E621267780B334CE5234F8 /* Pods_ARMomoCoinTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C40D1A328F00F930073D796 /* CloudAnchorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAnchorManager.swift; sourceTree = "<group>"; };
+		2C40D1A628F01BFF0073D796 /* FeatureMapQualityBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureMapQualityBar.swift; sourceTree = "<group>"; };
+		2C40D1A828F01C140073D796 /* FeatureMapQualityBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureMapQualityBars.swift; sourceTree = "<group>"; };
+		2C40D1AA28F01C210073D796 /* FeatureMapQualityRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureMapQualityRing.swift; sourceTree = "<group>"; };
 		2C95992528EFFF8600D8F53D /* ARMomoCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMomoCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C95992828EFFF8600D8F53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C95992A28EFFF8600D8F53D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		2C95992C28EFFF8600D8F53D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C95992F28EFFF8600D8F53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C95993128EFFF8900D8F53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C95993428EFFF8900D8F53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C95993A28EFFF8900D8F53D /* ARMomoCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMomoCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +61,22 @@
 		2C95994428EFFF8900D8F53D /* ARMomoCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMomoCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C95994828EFFF8900D8F53D /* ARMomoCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMomoCoinUITests.swift; sourceTree = "<group>"; };
 		2C95994A28EFFF8900D8F53D /* ARMomoCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMomoCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C95995828EFFFF800D8F53D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2C95995928F0003900D8F53D /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		2C95995D28F0091600D8F53D /* HostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
+		2C985A0328F263BD0074CF64 /* ResolveLobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolveLobbyViewController.swift; sourceTree = "<group>"; };
+		2C985A0528F2710A0074CF64 /* ResolveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolveViewController.swift; sourceTree = "<group>"; };
+		2CBA54E128F12CAD00A086BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2CC15FD928F1C12400150492 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48E621267780B334CE5234F8 /* Pods_ARMomoCoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMomoCoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B744344BFD2F5B4875A7001 /* Pods-ARMomoCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMomoCoin.debug.xcconfig"; path = "Target Support Files/Pods-ARMomoCoin/Pods-ARMomoCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		61C15DA2F326F1989CDD0B1D /* Pods-ARMomoCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMomoCoinTests.release.xcconfig"; path = "Target Support Files/Pods-ARMomoCoinTests/Pods-ARMomoCoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		6470078A969719DE746D4EDC /* Pods-ARMomoCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMomoCoin.release.xcconfig"; path = "Target Support Files/Pods-ARMomoCoin/Pods-ARMomoCoin.release.xcconfig"; sourceTree = "<group>"; };
+		65E0515281881F2FDDD65B08 /* Pods-ARMomoCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMomoCoinTests.debug.xcconfig"; path = "Target Support Files/Pods-ARMomoCoinTests/Pods-ARMomoCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9649A1413E6F06DD53DFF171 /* Pods-ARMomoCoin-ARMomoCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMomoCoin-ARMomoCoinUITests.release.xcconfig"; path = "Target Support Files/Pods-ARMomoCoin-ARMomoCoinUITests/Pods-ARMomoCoin-ARMomoCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C856B6F4F3771543A52C2BF8 /* Pods-ARMomoCoin-ARMomoCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMomoCoin-ARMomoCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARMomoCoin-ARMomoCoinUITests/Pods-ARMomoCoin-ARMomoCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B1BAE0FE17BA1406F5737E /* Pods_ARMomoCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMomoCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74B3D54F008851FAF3B247B /* Pods_ARMomoCoin_ARMomoCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMomoCoin_ARMomoCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0001CE62331DE33A42FBB344 /* Pods_ARMomoCoin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AFA3573BFABDF3799B26AB /* Pods_ARMomoCoinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56623C4F6301F7E991CF69E4 /* Pods_ARMomoCoin_ARMomoCoinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C40D1A528F01BCF0073D796 /* FeatureMap */ = {
+			isa = PBXGroup;
+			children = (
+				2C40D1A628F01BFF0073D796 /* FeatureMapQualityBar.swift */,
+				2C40D1A828F01C140073D796 /* FeatureMapQualityBars.swift */,
+				2C40D1AA28F01C210073D796 /* FeatureMapQualityRing.swift */,
+			);
+			path = FeatureMap;
+			sourceTree = "<group>";
+		};
 		2C95991C28EFFF8600D8F53D = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +124,8 @@
 				2C95993D28EFFF8900D8F53D /* ARMomoCoinTests */,
 				2C95994728EFFF8900D8F53D /* ARMomoCoinUITests */,
 				2C95992628EFFF8600D8F53D /* Products */,
+				EA153930C7E4173F9FA37191 /* Pods */,
+				D7E86ED7EC7DA9126AC3D52E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,12 +142,16 @@
 		2C95992728EFFF8600D8F53D /* ARMomoCoin */ = {
 			isa = PBXGroup;
 			children = (
+				2C40D1A528F01BCF0073D796 /* FeatureMap */,
+				2C95995728EFFF9400D8F53D /* ViewControllers */,
 				2C95992828EFFF8600D8F53D /* AppDelegate.swift */,
-				2C95992A28EFFF8600D8F53D /* art.scnassets */,
-				2C95992C28EFFF8600D8F53D /* ViewController.swift */,
-				2C95992E28EFFF8600D8F53D /* Main.storyboard */,
-				2C95993128EFFF8900D8F53D /* Assets.xcassets */,
+				2C40D1A328F00F930073D796 /* CloudAnchorManager.swift */,
+				2C95995828EFFFF800D8F53D /* Main.storyboard */,
 				2C95993328EFFF8900D8F53D /* LaunchScreen.storyboard */,
+				2C95992A28EFFF8600D8F53D /* art.scnassets */,
+				2C95993128EFFF8900D8F53D /* Assets.xcassets */,
+				2CBA54E128F12CAD00A086BA /* Info.plist */,
+				2CC15FD928F1C12400150492 /* GoogleService-Info.plist */,
 			);
 			path = ARMomoCoin;
 			sourceTree = "<group>";
@@ -125,6 +173,40 @@
 			path = ARMomoCoinUITests;
 			sourceTree = "<group>";
 		};
+		2C95995728EFFF9400D8F53D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C95995928F0003900D8F53D /* LobbyViewController.swift */,
+				2C95995D28F0091600D8F53D /* HostViewController.swift */,
+				2C985A0328F263BD0074CF64 /* ResolveLobbyViewController.swift */,
+				2C985A0528F2710A0074CF64 /* ResolveViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D7E86ED7EC7DA9126AC3D52E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6B1BAE0FE17BA1406F5737E /* Pods_ARMomoCoin.framework */,
+				E74B3D54F008851FAF3B247B /* Pods_ARMomoCoin_ARMomoCoinUITests.framework */,
+				48E621267780B334CE5234F8 /* Pods_ARMomoCoinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA153930C7E4173F9FA37191 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B744344BFD2F5B4875A7001 /* Pods-ARMomoCoin.debug.xcconfig */,
+				6470078A969719DE746D4EDC /* Pods-ARMomoCoin.release.xcconfig */,
+				C856B6F4F3771543A52C2BF8 /* Pods-ARMomoCoin-ARMomoCoinUITests.debug.xcconfig */,
+				9649A1413E6F06DD53DFF171 /* Pods-ARMomoCoin-ARMomoCoinUITests.release.xcconfig */,
+				65E0515281881F2FDDD65B08 /* Pods-ARMomoCoinTests.debug.xcconfig */,
+				61C15DA2F326F1989CDD0B1D /* Pods-ARMomoCoinTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C95994E28EFFF8900D8F53D /* Build configuration list for PBXNativeTarget "ARMomoCoin" */;
 			buildPhases = (
+				C03188A5D4DB358EB6C38A80 /* [CP] Check Pods Manifest.lock */,
 				2C95992128EFFF8600D8F53D /* Sources */,
 				2C95992228EFFF8600D8F53D /* Frameworks */,
 				2C95992328EFFF8600D8F53D /* Resources */,
+				53E2C772560E5659FC9F88B0 /* [CP] Embed Pods Frameworks */,
+				0CABC33D666649D1AEF89142 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C95995128EFFF8900D8F53D /* Build configuration list for PBXNativeTarget "ARMomoCoinTests" */;
 			buildPhases = (
+				8C6291B8ED7D20687CBBD823 /* [CP] Check Pods Manifest.lock */,
 				2C95993628EFFF8900D8F53D /* Sources */,
 				2C95993728EFFF8900D8F53D /* Frameworks */,
 				2C95993828EFFF8900D8F53D /* Resources */,
@@ -167,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C95995428EFFF8900D8F53D /* Build configuration list for PBXNativeTarget "ARMomoCoinUITests" */;
 			buildPhases = (
+				3EC3914E8FD15CAD68A99A40 /* [CP] Check Pods Manifest.lock */,
 				2C95994028EFFF8900D8F53D /* Sources */,
 				2C95994128EFFF8900D8F53D /* Frameworks */,
 				2C95994228EFFF8900D8F53D /* Resources */,
+				B0B7D8C5D33EF19520ABC189 /* [CP] Embed Pods Frameworks */,
+				FCEFE71C60E87B9783B2D519 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,7 +294,7 @@
 				};
 			};
 			buildConfigurationList = 2C95992028EFFF8600D8F53D /* Build configuration list for PBXProject "ARMomoCoin" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -229,10 +318,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC15FDA28F1C12400150492 /* GoogleService-Info.plist in Resources */,
 				2C95992B28EFFF8600D8F53D /* art.scnassets in Resources */,
+				2CBA54E228F12D6E00A086BA /* Main.storyboard in Resources */,
 				2C95993528EFFF8900D8F53D /* LaunchScreen.storyboard in Resources */,
 				2C95993228EFFF8900D8F53D /* Assets.xcassets in Resources */,
-				2C95993028EFFF8600D8F53D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +342,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CABC33D666649D1AEF89142 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin/Pods-ARMomoCoin-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin/Pods-ARMomoCoin-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin/Pods-ARMomoCoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC3914E8FD15CAD68A99A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMomoCoin-ARMomoCoinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E2C772560E5659FC9F88B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin/Pods-ARMomoCoin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin/Pods-ARMomoCoin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin/Pods-ARMomoCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C6291B8ED7D20687CBBD823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMomoCoinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B7D8C5D33EF19520ABC189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin-ARMomoCoinUITests/Pods-ARMomoCoin-ARMomoCoinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin-ARMomoCoinUITests/Pods-ARMomoCoin-ARMomoCoinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin-ARMomoCoinUITests/Pods-ARMomoCoin-ARMomoCoinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C03188A5D4DB358EB6C38A80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMomoCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCEFE71C60E87B9783B2D519 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin-ARMomoCoinUITests/Pods-ARMomoCoin-ARMomoCoinUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin-ARMomoCoinUITests/Pods-ARMomoCoin-ARMomoCoinUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARMomoCoin-ARMomoCoinUITests/Pods-ARMomoCoin-ARMomoCoinUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C95992128EFFF8600D8F53D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C95992D28EFFF8600D8F53D /* ViewController.swift in Sources */,
+				2C40D1A428F00F930073D796 /* CloudAnchorManager.swift in Sources */,
+				2C40D1AB28F01C210073D796 /* FeatureMapQualityRing.swift in Sources */,
+				2C40D1A928F01C140073D796 /* FeatureMapQualityBars.swift in Sources */,
+				2C40D1A728F01BFF0073D796 /* FeatureMapQualityBar.swift in Sources */,
+				2C95995E28F0091600D8F53D /* HostViewController.swift in Sources */,
+				2C985A0428F263BD0074CF64 /* ResolveLobbyViewController.swift in Sources */,
+				2C95995A28F0003900D8F53D /* LobbyViewController.swift in Sources */,
 				2C95992928EFFF8600D8F53D /* AppDelegate.swift in Sources */,
+				2C985A0628F2710A0074CF64 /* ResolveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,14 +529,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2C95992E28EFFF8600D8F53D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C95992F28EFFF8600D8F53D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C95993328EFFF8900D8F53D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,6 +656,7 @@
 		};
 		2C95994F28EFFF8900D8F53D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B744344BFD2F5B4875A7001 /* Pods-ARMomoCoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -437,6 +664,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TMPGCK6PC5;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARMomoCoin/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -445,6 +673,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +689,7 @@
 		};
 		2C95995028EFFF8900D8F53D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6470078A969719DE746D4EDC /* Pods-ARMomoCoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +697,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TMPGCK6PC5;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARMomoCoin/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -475,6 +706,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +722,7 @@
 		};
 		2C95995228EFFF8900D8F53D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E0515281881F2FDDD65B08 /* Pods-ARMomoCoinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,7 +730,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TMPGCK6PC5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanmobile.ARMomoCoinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,6 +743,7 @@
 		};
 		2C95995328EFFF8900D8F53D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C15DA2F326F1989CDD0B1D /* Pods-ARMomoCoinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,7 +751,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TMPGCK6PC5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanmobile.ARMomoCoinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,6 +764,7 @@
 		};
 		2C95995528EFFF8900D8F53D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C856B6F4F3771543A52C2BF8 /* Pods-ARMomoCoin-ARMomoCoinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +783,7 @@
 		};
 		2C95995628EFFF8900D8F53D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9649A1413E6F06DD53DFF171 /* Pods-ARMomoCoin-ARMomoCoinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
