@@ -19,6 +19,7 @@ class CloudAnchorManager: NSObject {
     weak var delegate: CloudAnchorManagerDelegate?
     
     var gSession: GARSession!
+    private let token = ""
     
     convenience init(session: ARSession) {
         self.init()
@@ -26,7 +27,9 @@ class CloudAnchorManager: NSObject {
         self.session?.delegate = self
         
         do {
-            try gSession = GARSession(apiKey: "AIzaSyD2dtcN_0uWUJcN_9WsI__W-Q7nP6GqF_Y", bundleIdentifier: nil)
+            try gSession = GARSession(apiKey: "AIzaSyAyTvrP3HVV47rWpWOtieA6z66KXCPOLQ8", bundleIdentifier: nil)
+//            try gSession = GARSession.session()
+//            gSession.setAuthToken(token)
         } catch {
             fatalError("Create CloudAnchorManager fail: \(error.localizedDescription)")
         }

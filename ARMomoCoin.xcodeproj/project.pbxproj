@@ -12,6 +12,7 @@
 		2C40D1A728F01BFF0073D796 /* FeatureMapQualityBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40D1A628F01BFF0073D796 /* FeatureMapQualityBar.swift */; };
 		2C40D1A928F01C140073D796 /* FeatureMapQualityBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40D1A828F01C140073D796 /* FeatureMapQualityBars.swift */; };
 		2C40D1AB28F01C210073D796 /* FeatureMapQualityRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40D1AA28F01C210073D796 /* FeatureMapQualityRing.swift */; };
+		2C90179B28F5404D002DE8DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C90179A28F5404D002DE8DB /* GoogleService-Info.plist */; };
 		2C95992928EFFF8600D8F53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C95992828EFFF8600D8F53D /* AppDelegate.swift */; };
 		2C95992B28EFFF8600D8F53D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C95992A28EFFF8600D8F53D /* art.scnassets */; };
 		2C95993228EFFF8900D8F53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C95993128EFFF8900D8F53D /* Assets.xcassets */; };
@@ -24,7 +25,6 @@
 		2C985A0428F263BD0074CF64 /* ResolveLobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C985A0328F263BD0074CF64 /* ResolveLobbyViewController.swift */; };
 		2C985A0628F2710A0074CF64 /* ResolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C985A0528F2710A0074CF64 /* ResolveViewController.swift */; };
 		2CBA54E228F12D6E00A086BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C95995828EFFFF800D8F53D /* Main.storyboard */; };
-		2CC15FDA28F1C12400150492 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CC15FD928F1C12400150492 /* GoogleService-Info.plist */; };
 		56623C4F6301F7E991CF69E4 /* Pods_ARMomoCoin_ARMomoCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74B3D54F008851FAF3B247B /* Pods_ARMomoCoin_ARMomoCoinUITests.framework */; };
 		C1AFA3573BFABDF3799B26AB /* Pods_ARMomoCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E621267780B334CE5234F8 /* Pods_ARMomoCoinTests.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +51,7 @@
 		2C40D1A628F01BFF0073D796 /* FeatureMapQualityBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureMapQualityBar.swift; sourceTree = "<group>"; };
 		2C40D1A828F01C140073D796 /* FeatureMapQualityBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureMapQualityBars.swift; sourceTree = "<group>"; };
 		2C40D1AA28F01C210073D796 /* FeatureMapQualityRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureMapQualityRing.swift; sourceTree = "<group>"; };
+		2C90179A28F5404D002DE8DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2C95992528EFFF8600D8F53D /* ARMomoCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMomoCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C95992828EFFF8600D8F53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C95992A28EFFF8600D8F53D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		2C985A0328F263BD0074CF64 /* ResolveLobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolveLobbyViewController.swift; sourceTree = "<group>"; };
 		2C985A0528F2710A0074CF64 /* ResolveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolveViewController.swift; sourceTree = "<group>"; };
 		2CBA54E128F12CAD00A086BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		2CC15FD928F1C12400150492 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		48E621267780B334CE5234F8 /* Pods_ARMomoCoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMomoCoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B744344BFD2F5B4875A7001 /* Pods-ARMomoCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMomoCoin.debug.xcconfig"; path = "Target Support Files/Pods-ARMomoCoin/Pods-ARMomoCoin.debug.xcconfig"; sourceTree = "<group>"; };
 		61C15DA2F326F1989CDD0B1D /* Pods-ARMomoCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMomoCoinTests.release.xcconfig"; path = "Target Support Files/Pods-ARMomoCoinTests/Pods-ARMomoCoinTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 				2C95992A28EFFF8600D8F53D /* art.scnassets */,
 				2C95993128EFFF8900D8F53D /* Assets.xcassets */,
 				2CBA54E128F12CAD00A086BA /* Info.plist */,
-				2CC15FD928F1C12400150492 /* GoogleService-Info.plist */,
+				2C90179A28F5404D002DE8DB /* GoogleService-Info.plist */,
 			);
 			path = ARMomoCoin;
 			sourceTree = "<group>";
@@ -318,11 +318,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CC15FDA28F1C12400150492 /* GoogleService-Info.plist in Resources */,
 				2C95992B28EFFF8600D8F53D /* art.scnassets in Resources */,
 				2CBA54E228F12D6E00A086BA /* Main.storyboard in Resources */,
 				2C95993528EFFF8900D8F53D /* LaunchScreen.storyboard in Resources */,
 				2C95993228EFFF8900D8F53D /* Assets.xcassets in Resources */,
+				2C90179B28F5404D002DE8DB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
