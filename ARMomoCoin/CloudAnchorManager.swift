@@ -69,8 +69,8 @@ class CloudAnchorManager: NSObject {
     }
     
     func getAnchorNode() -> SCNNode? {
-//        let scene = SCNScene(named: "art.scnassets/mining_equipment.scn")
-//        let anchorNode = scene?.rootNode.childNode(withName: "scene", recursively: false)
+        let scene = SCNScene(named: "art.scnassets/mining_equipment.scn")
+        let anchorNode = scene?.rootNode.childNode(withName: "scene", recursively: false)
 //
 //        // Load ship.scn
 //        let scene = SCNScene(named: "art.scnassets/ship.scn")
@@ -79,10 +79,10 @@ class CloudAnchorManager: NSObject {
 //        shipAnchor?.scale = SCNVector3(0.01, 0.01, 0.01)
         
         // Load toy_drummer.scn
-        let scene = SCNScene(named: "art.scnassets/toy_drummer.scn")
-        let anchorNode = scene?.rootNode.childNode(withName: "toy_drummer", recursively: false)
-        let geomAnchor = anchorNode?.childNode(withName: "Geom", recursively: true)
-        geomAnchor?.scale = SCNVector3(0.01, 0.01, 0.01)
+//        let scene = SCNScene(named: "art.scnassets/toy_drummer.scn")
+//        let anchorNode = scene?.rootNode.childNode(withName: "toy_drummer", recursively: false)
+//        let geomAnchor = anchorNode?.childNode(withName: "Geom", recursively: true)
+//        geomAnchor?.scale = SCNVector3(0.01, 0.01, 0.01)
         
         return anchorNode
     }
