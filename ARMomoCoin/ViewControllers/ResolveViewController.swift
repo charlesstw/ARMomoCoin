@@ -41,6 +41,30 @@ class ResolveViewController: UIViewController {
         enterState(.ResolveStateDefault)
         resolveAnchors(anchorIds: anchorIds)
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        guard let scnView = self.sceneView else { return }
+        let touch = touches.first
+        if let point = touch?.location(in: scnView) {
+            let hitResults = scnView.hitTest(point, options: nil)
+            if let result: SCNHitTestResult = hitResults.first, let cameraPos = sceneView.session.currentFrame?.camera.transform.columns.3{
+                let worldPosition  = result.worldCoordinates
+                let cameraPos3 = SCNVector3(cameraPos.x, cameraPos.y, cameraPos.z)
+                print("node position:\(worldPosition)")
+                print("camera position:\(cameraPos3)")
+                let distance = distanceTravelled(between: cameraPos3, and: worldPosition)
+                print("distance:\(distance)")
+                
+                if distance < 1 {
+                    debugMessage = "-------You got it-------"
+                } else {
+                    debugMessage = "-------Get closer to it-------"
+                }
+                
+                updateMessageLabel()
+            }
+        }
+    }
 }
 
 extension ResolveViewController: CloudAnchorManagerDelegate {
@@ -172,4 +196,16 @@ extension ResolveViewController {
             enterState(.ResolveStateFinished)
         }
     }
+    
+    private func distanceTravelled(xDist:Float, yDist:Float, zDist:Float) -> Float{
+        return sqrt((xDist*xDist)+(yDist*yDist)+(zDist*zDist))
+    }
+
+    private func distanceTravelled(between v1:SCNVector3,and v2:SCNVector3) -> Float{
+        let xDist = v1.x - v2.x
+        let yDist = v1.y - v2.y
+        let zDist = v1.z - v2.z
+        return distanceTravelled(xDist: xDist, yDist: yDist, zDist: zDist)
+    }
 }
+
