@@ -6,6 +6,8 @@ target 'ARMomoCoin' do
   use_frameworks!
 
   pod 'ARCore/CloudAnchors', '~> 1.33.0'
+  pod 'Firebase/Database', '~> 9.6.0'
+  pod 'Firebase/Auth', '~> 9.6.0'
 
   target 'ARMomoCoinTests' do
     inherit! :search_paths

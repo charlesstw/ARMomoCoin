@@ -85,6 +85,21 @@
                                     <action selector="resolveButtonClicked:" destination="npC-pV-ObV" eventType="touchUpInside" id="hsR-OO-hY6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1M-0R-KHh">
+                                <rect key="frame" x="77" y="577" width="221" height="40"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Zyf-Qd-Eqs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="3" maxX="10" maxY="3"/>
+                                <state key="normal" title="Begin remote resolving">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="remoteResolveButtonClicked:" destination="npC-pV-ObV" eventType="touchUpInside" id="WzT-2a-5JB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
@@ -96,11 +111,13 @@
                             <constraint firstItem="fdE-Hp-WKk" firstAttribute="centerY" secondItem="G6u-6a-3og" secondAttribute="centerY" id="DsS-eh-Wqp"/>
                             <constraint firstItem="tQH-vb-wuU" firstAttribute="centerX" secondItem="G6u-6a-3og" secondAttribute="centerX" id="HLZ-ef-Kmb"/>
                             <constraint firstItem="BOH-7F-375" firstAttribute="centerX" secondItem="G6u-6a-3og" secondAttribute="centerX" id="INb-Y2-B1I"/>
+                            <constraint firstItem="t1M-0R-KHh" firstAttribute="centerX" secondItem="G6u-6a-3og" secondAttribute="centerX" id="Prc-Iw-Kpx"/>
                             <constraint firstItem="ci0-rY-O8A" firstAttribute="centerX" secondItem="G6u-6a-3og" secondAttribute="centerX" id="Vcl-LN-Rzc"/>
                             <constraint firstItem="fdE-Hp-WKk" firstAttribute="top" secondItem="tQH-vb-wuU" secondAttribute="top" constant="190" id="VdS-2E-o7T"/>
                             <constraint firstItem="E2T-9c-cHN" firstAttribute="centerX" secondItem="G6u-6a-3og" secondAttribute="centerX" id="VvN-rd-tY4"/>
                             <constraint firstItem="BOH-7F-375" firstAttribute="top" secondItem="fdE-Hp-WKk" secondAttribute="bottom" constant="30" id="aWk-vX-cnt"/>
                             <constraint firstItem="9hH-gA-NYS" firstAttribute="centerX" secondItem="G6u-6a-3og" secondAttribute="centerX" id="dHi-AN-9qO"/>
+                            <constraint firstItem="t1M-0R-KHh" firstAttribute="top" secondItem="zaV-rA-irc" secondAttribute="bottom" constant="42" id="ole-zj-F8r"/>
                             <constraint firstItem="fdE-Hp-WKk" firstAttribute="top" secondItem="E2T-9c-cHN" secondAttribute="bottom" constant="30" id="sCs-Nz-9SR"/>
                             <constraint firstItem="9hH-gA-NYS" firstAttribute="leading" secondItem="G6u-6a-3og" secondAttribute="leading" constant="30" id="tF5-Zd-Pep"/>
                             <constraint firstAttribute="trailing" secondItem="9hH-gA-NYS" secondAttribute="trailing" constant="30" id="uMQ-Y2-yeP"/>
@@ -111,6 +128,7 @@
                     <navigationItem key="navigationItem" id="Imv-jf-GII"/>
                     <connections>
                         <outlet property="hostButton" destination="E2T-9c-cHN" id="dp4-Kc-nUo"/>
+                        <outlet property="remoteResolveButton" destination="t1M-0R-KHh" id="upA-7B-dP7"/>
                         <outlet property="resolveButton" destination="zaV-rA-irc" id="Umz-T3-47N"/>
                     </connections>
                 </viewController>

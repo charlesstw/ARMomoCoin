@@ -13,6 +13,7 @@
 		2C40D1A928F01C140073D796 /* FeatureMapQualityBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40D1A828F01C140073D796 /* FeatureMapQualityBars.swift */; };
 		2C40D1AB28F01C210073D796 /* FeatureMapQualityRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40D1AA28F01C210073D796 /* FeatureMapQualityRing.swift */; };
 		2C90179B28F5404D002DE8DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C90179A28F5404D002DE8DB /* GoogleService-Info.plist */; };
+		2C90179D28F55499002DE8DB /* FIRDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90179C28F55499002DE8DB /* FIRDatabaseManager.swift */; };
 		2C95992928EFFF8600D8F53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C95992828EFFF8600D8F53D /* AppDelegate.swift */; };
 		2C95992B28EFFF8600D8F53D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C95992A28EFFF8600D8F53D /* art.scnassets */; };
 		2C95993228EFFF8900D8F53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C95993128EFFF8900D8F53D /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		2C40D1A828F01C140073D796 /* FeatureMapQualityBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureMapQualityBars.swift; sourceTree = "<group>"; };
 		2C40D1AA28F01C210073D796 /* FeatureMapQualityRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureMapQualityRing.swift; sourceTree = "<group>"; };
 		2C90179A28F5404D002DE8DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2C90179C28F55499002DE8DB /* FIRDatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRDatabaseManager.swift; sourceTree = "<group>"; };
 		2C95992528EFFF8600D8F53D /* ARMomoCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMomoCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C95992828EFFF8600D8F53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C95992A28EFFF8600D8F53D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				2C95995728EFFF9400D8F53D /* ViewControllers */,
 				2C95992828EFFF8600D8F53D /* AppDelegate.swift */,
 				2C40D1A328F00F930073D796 /* CloudAnchorManager.swift */,
+				2C90179C28F55499002DE8DB /* FIRDatabaseManager.swift */,
 				2C95995828EFFFF800D8F53D /* Main.storyboard */,
 				2C95993328EFFF8900D8F53D /* LaunchScreen.storyboard */,
 				2C95992A28EFFF8600D8F53D /* art.scnassets */,
@@ -486,6 +489,7 @@
 			files = (
 				2C40D1A428F00F930073D796 /* CloudAnchorManager.swift in Sources */,
 				2C40D1AB28F01C210073D796 /* FeatureMapQualityRing.swift in Sources */,
+				2C90179D28F55499002DE8DB /* FIRDatabaseManager.swift in Sources */,
 				2C40D1A928F01C140073D796 /* FeatureMapQualityBars.swift in Sources */,
 				2C40D1A728F01BFF0073D796 /* FeatureMapQualityBar.swift in Sources */,
 				2C95995E28F0091600D8F53D /* HostViewController.swift in Sources */,

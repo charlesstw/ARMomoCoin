@@ -364,5 +364,10 @@ extension HostViewController {
         
         UserDefaults.standard.set(nicknameToTimeStampDictionary, forKey: kNicknameTimeStampDictionary)
         UserDefaults.standard.set(nicknameToAnchorIdDictionary, forKey: kNicknameAnchorIdDictionary)
+        
+        // Save to firebase
+        FIRDatabaseManager.shared.getCurrentIndex { index in
+            FIRDatabaseManager.shared.setAnchor(by: index, anchorId: anchorId)
+        }
     }
 }

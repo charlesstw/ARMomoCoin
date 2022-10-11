@@ -11,13 +11,24 @@ PODS:
     - Firebase/RemoteConfig (< 10.0, >= 8.0)
     - GoogleDataTransport (~> 9.0)
     - nanopb (< 2.30910.0, >= 2.30908.0)
+  - Firebase/Auth (9.6.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 9.6.0)
   - Firebase/CoreOnly (9.6.0):
     - FirebaseCore (= 9.6.0)
+  - Firebase/Database (9.6.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 9.6.0)
   - Firebase/RemoteConfig (9.6.0):
     - Firebase/CoreOnly
     - FirebaseRemoteConfig (~> 9.6.0)
   - FirebaseABTesting (9.6.0):
     - FirebaseCore (~> 9.0)
+  - FirebaseAuth (9.6.0):
+    - FirebaseCore (~> 9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.7)
   - FirebaseCore (9.6.0):
     - FirebaseCoreDiagnostics (~> 9.0)
     - FirebaseCoreInternal (~> 9.0)
@@ -30,6 +41,9 @@ PODS:
     - nanopb (< 2.30910.0, >= 2.30908.0)
   - FirebaseCoreInternal (9.6.0):
     - "GoogleUtilities/NSData+zlib (~> 7.7)"
+  - FirebaseDatabase (9.6.0):
+    - FirebaseCore (~> 9.0)
+    - leveldb-library (~> 1.22)
   - FirebaseInstallations (9.6.0):
     - FirebaseCore (~> 9.0)
     - GoogleUtilities/Environment (~> 7.7)
@@ -45,14 +59,25 @@ PODS:
     - GoogleUtilities/Environment (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.8.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
   - GoogleUtilities/Environment (7.8.0):
     - PromisesObjC (< 3.0, >= 1.2)
   - GoogleUtilities/Logger (7.8.0):
     - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.8.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
   - "GoogleUtilities/NSData+zlib (7.8.0)"
+  - GoogleUtilities/Reachability (7.8.0):
+    - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.8.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.7.2)
+  - leveldb-library (1.22.1)
   - nanopb (2.30909.0):
     - nanopb/decode (= 2.30909.0)
     - nanopb/encode (= 2.30909.0)
@@ -62,20 +87,25 @@ PODS:
 
 DEPENDENCIES:
   - ARCore/CloudAnchors (~> 1.33.0)
+  - Firebase/Auth (~> 9.6.0)
+  - Firebase/Database (~> 9.6.0)
 
 SPEC REPOS:
   trunk:
     - ARCore
     - Firebase
     - FirebaseABTesting
+    - FirebaseAuth
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - FirebaseCoreInternal
+    - FirebaseDatabase
     - FirebaseInstallations
     - FirebaseRemoteConfig
     - GoogleDataTransport
     - GoogleUtilities
     - GTMSessionFetcher
+    - leveldb-library
     - nanopb
     - PromisesObjC
 
@@ -83,17 +113,20 @@ SPEC CHECKSUMS:
   ARCore: a5818d47ba3c1a523b4c0bf80ee0a479fb68c5af
   Firebase: 5ae8b7cf8efce559a653aef0ad95bab3f427c351
   FirebaseABTesting: 61826730ce9eee8781ba99a2b3420e9bce148dc9
+  FirebaseAuth: e4a5d3c36e778e41141b91cc861103a441d80bcc
   FirebaseCore: 2082fffcd855f95f883c0a1641133eb9bbe76d40
   FirebaseCoreDiagnostics: 99a495094b10a57eeb3ae8efa1665700ad0bdaa6
   FirebaseCoreInternal: bca76517fe1ed381e989f5e7d8abb0da8d85bed3
+  FirebaseDatabase: 3de19e533a73d45e25917b46aafe1dd344ec8119
   FirebaseInstallations: 0a115432c4e223c5ab20b0dbbe4cbefa793a0e8e
   FirebaseRemoteConfig: ee09d77a7d7c7e31da6a0d1cf956cd611c85609c
   GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
   GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
   GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
 
-PODFILE CHECKSUM: 71e565d4f51693bc273ec33cf6a3ab7e5bd66379
+PODFILE CHECKSUM: 2ce5c34f87859396e6d8836a30a7cfec323369af
 
 COCOAPODS: 1.11.3
